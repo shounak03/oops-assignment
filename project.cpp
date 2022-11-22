@@ -108,6 +108,9 @@ class current : public saving{
             
             cout<<"Current balance - "<<x;
         }
+    ~saving(){
+        cout<<"destructor is invoked";
+    }
 
 };
 void saving :: input(){
